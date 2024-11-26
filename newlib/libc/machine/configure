@@ -290,6 +290,7 @@ ac_subdirs_all="$ac_subdirs_all iq2000"
 ac_subdirs_all="$ac_subdirs_all m32c"
 ac_subdirs_all="$ac_subdirs_all m32r"
 ac_subdirs_all="$ac_subdirs_all m68hc11"
+ac_subdirs_all="$ac_subdirs_all m6809"
 ac_subdirs_all="$ac_subdirs_all m68k"
 ac_subdirs_all="$ac_subdirs_all m88k"
 ac_subdirs_all="$ac_subdirs_all mips"
@@ -4664,7 +4665,7 @@ test x"$pic_mode" = xno && libtool_flags="$libtool_flags --prefer-non-pic"
 case $host in
 *-*-irix6*)
   # Find out which ABI we are using.
-  echo '#line 4667 "configure"' > conftest.$ac_ext
+  echo '#line 4668 "configure"' > conftest.$ac_ext
   if { (eval echo "$as_me:$LINENO: \"$ac_compile\"") >&5
   (eval $ac_compile) 2>&5
   ac_status=$?
@@ -4965,6 +4966,10 @@ subdirs="$subdirs m32r"
 	m68hc11)
 
 subdirs="$subdirs m68hc11"
+ ;;
+	m6809)
+
+subdirs="$subdirs m6809"
  ;;
 	m68k)
 
