@@ -660,6 +660,9 @@ case "${target}" in
   m68hc11-*-*|m6811-*-*|m68hc12-*-*|m6812-*-*)
     noconfigdirs="$noconfigdirs target-libiberty target-libstdc++-v3 ${libgcj}"
     ;;
+  m6809-*-*)
+    noconfigdirs="$noconfigdirs target-libiberty target-libstdc++-v3 ${libgcj}"
+    ;;
   m68k-*-elf*)
     noconfigdirs="$noconfigdirs ${libgcj}"
     ;;
